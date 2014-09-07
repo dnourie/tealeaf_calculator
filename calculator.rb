@@ -14,17 +14,12 @@ operator = gets.chomp
 case operator
   when operator == 'add'
     total = num1.to_i + num2.to_i
-    return total
   when operator == 'subtract'
     total = num1.to_i - num2.to_i
-    return total
   when operator == 'multiply'
     total = num1.to_i * num2.to_i
-    return total
   when operator == 'divide'
     total = num1.to_f / num2.to_f
-    return total
-end
-
+  end
 # Return the results
 puts "Your total is #{total}!"
