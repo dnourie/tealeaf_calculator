@@ -11,7 +11,7 @@ puts "Do you want to add, subtract, multiply, or divide the numbers?"
 operator = gets.chomp
 
 # Perform the calculation for the numbers through operator given
-case operator
+case
   when operator == 'add'
     total = num1.to_i + num2.to_i
   when operator == 'subtract'
@@ -20,6 +20,6 @@ case operator
     total = num1.to_i * num2.to_i
   when operator == 'divide'
     total = num1.to_f / num2.to_f
-  end
+end
 # Return the results
 puts "Your total is #{total}!"
