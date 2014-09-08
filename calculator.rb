@@ -1,7 +1,7 @@
 # Calculator assignment for Tealeaf Ruby course 1
 
 # Get two numbers from the user via command line
-puts "Type go if you want to calculate. Type exit, if you want to exit"
+puts "Type go if you want to calculate. Type exit, if you want to exit."
 response = gets.chomp
   until response == "exit" do
     puts "Enter the first number:"
