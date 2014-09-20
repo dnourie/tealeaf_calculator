@@ -28,6 +28,6 @@ response = gets.chomp.downcase
     end
     # Return the results
     puts "Your total is #{total}!"
-    puts "Type exit if you are done!"
+    puts "Type exit if you are done, or enter to return to perform another calculation!"
     response = gets.chomp.downcase
   end
